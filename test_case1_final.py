@@ -11,7 +11,7 @@ esp_command_url = f"http://{esp_ip}"
 esp_buzzer_url = f"http://{esp_ip}/buzz"
 
 # === YOLO Model Setup ===
-model = YOLO("runs/detect/traffic_light_model2/weights/best.pt")
+model = YOLO("runs/detect/traffic_light_model3/weights/best.pt")
 names = model.names
 
 # === States ===
