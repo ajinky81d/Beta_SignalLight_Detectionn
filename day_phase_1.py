@@ -10,7 +10,7 @@ import time
 esp_url = "http://192.168.198.242/stream"
 
 # === Load YOLO model ===
-model = YOLO("runs/detect/traffic_light_model2/weights/best.pt")
+model = YOLO("runs/detect/traffic_light_model3/weights/best.pt")
 names = model.names
 
 # === Setup Variables ===
